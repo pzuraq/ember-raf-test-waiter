@@ -11,13 +11,14 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/pzuraq/ember-raf-test-waiter.git",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
   "dependencies": {
+    "broccoli-funnel": "^2.0.1",
     "ember-cli-babel": "^6.3.0"
   },
   "devDependencies": {

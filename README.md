@@ -1,6 +1,14 @@
 # ember-raf-test-waiter
 
-This README outlines the details of collaborating on this Ember addon.
+Super simple addon for adding a test waiter to wait on `requestAnimationFrame` in a
+relatively generic way. Usage:
+
+```js
+// test-helper.js
+import { registerWaiter } from 'ember-raf-test-waiter';
+
+registerWaiter();
+```
 
 ## Installation
 
